@@ -1,0 +1,30 @@
+{
+  "name": "td-dk-report",
+  "version": "1.0.0",
+  "description": "Migrar un proyecto ya existente de cSharp a Node js para una mayor productividad",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "prod": "pm2 start ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicedev94/td-dk-report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicedev94/td-dk-report/issues"
+  },
+  "homepage": "https://github.com/alicedev94/td-dk-report#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "sequelize": "^6.32.1",
+    "tedious": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
