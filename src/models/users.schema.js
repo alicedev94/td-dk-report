@@ -38,7 +38,7 @@ const usersSchema = {
   },
 };
 
-class NameTaRelacionPuesto extends Model {
+class UsersClass extends Model {
   static associate() {
     // associate
   }

@@ -24,9 +24,12 @@ const sequelize = new Sequelize(
 );
 
 setupModels(sequelize);
-sequelize.sync();
+//sequelize.sync();
 
 module.exports = sequelize;
+
+
+
 
 
 
